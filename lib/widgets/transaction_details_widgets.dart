@@ -10,7 +10,7 @@ class TransactionDetialsWidget extends StatelessWidget {
       height: 900,
       child: ListView.separated(
         physics: const NeverScrollableScrollPhysics(),
-        itemBuilder: (BuildContextcontext, index) {
+        itemBuilder: (BuildContext context, index) {
           return ListTile(
             leading: SizedBox(
                 height: 50, child: Image.asset('assets/images/img1.jpg')),

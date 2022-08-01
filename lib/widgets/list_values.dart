@@ -9,7 +9,7 @@ import 'package:ui_design/screens/page_two.dart';
 import '../screens/page_one.dart';
 
 class ListValues {
-  final nav = const [
+  final nav = [
     PageOne(),
     PageTwo(),
     PageThree(),
